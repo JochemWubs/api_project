@@ -1,8 +1,6 @@
 api_project
 # Wubs Explains: exposing a Machine Learning model via a REST API
 
-___
-
 After having developed a Machine Learning model you'll want to start using it. Depending on the use case there are various methods to deploy your model and to expose the functionality of the model to the outside world (i.e. users, applications, etc.). This basic tutorial will show you how to make the predict function of a trained model available via a RESTful web API using Flask.
 
   
