@@ -1,5 +1,6 @@
-api_project
-# Wubs Explains: exposing a Machine Learning model via a REST API
+**api_project**
+# Wubs Explains:
+# exposing a Machine Learning model via a REST API
 
 
 After having developed a Machine Learning model you'll want to start using it. Depending on the use case there are various methods to deploy your model and to expose the functionality of the model to the outside world (i.e. users, applications, etc.). This basic tutorial will show you how to make the predict function of a trained model available via a RESTful web API using Flask.
@@ -57,7 +58,8 @@ def store_model(file, model_object):
     """Pickles object hierarchy and saves it to disk.
 
     Args:
-        file: A string that points to the <directory/<file> where the object will be stored.
+        file: A string that points to the <directory/<file> where the 
+          object will be stored.
         model_object: The object that will be Pickled and saved to disk.
 
     """
@@ -149,7 +151,9 @@ clf = load_model(clf_file)
 def predict():
     """Extracts features from HTTP POST request and retuns prediction.
 
-    This function extracts features from a JSON object that has been send by a HTTP POST request. The extraxted features are returned in a JSON object.
+    This function extracts features from a JSON object that has been send
+    by a HTTP POST request. The extraxted features are returned in a JSON 
+    object.
 
     Input:
 
